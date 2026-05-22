@@ -39,12 +39,20 @@ log = {
 if log['level'] == 'ERROR':
     print(log['message'])
 
-
 ### Exercício 4: Validação de Dados de Entrada
 # Antes de processar os dados de usuários em um sistema de recomendação, 
 # você precisa garantir que cada usuário tenha idade entre 18 e 65 anos e tenha 
 # fornecido um email válido. Escreva um programa que valide essas condições 
 # e imprima "Dados de usuário válidos" ou o erro específico encontrado.
+idade = 22
+email = 'felipe@gmail.com'
+
+if idade >= 18 and idade <= 65 and '@' in email:
+    print('Dados de usuário válidos')
+else:
+    print('erro encontrado')
+
+
 
 ### Exercício 5: Detecção de Anomalias em Dados de Transações
 # Você está trabalhando em um sistema de detecção de fraude e precisa identificar 
