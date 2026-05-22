@@ -15,6 +15,15 @@ else:
 # Imagine que você está trabalhando com dados de sensores IoT. 
 # Os dados incluem medições de temperatura. Você precisa classificar cada leitura 
 # como 'Baixa', 'Normal' ou 'Alta'. Considerando que:
+temperatura = 27
+
+if temperatura >= 16 and temperatura < 31:
+    print('Temperatura normal')
+elif temperatura <= 15:
+    print('Temperatura baixa')
+else:
+    print('Temperatura quente')
+
 
 ### Exercício 3: Filtragem de Logs por Severidade
 # Você está analisando logs de uma aplicação e precisa filtrar mensagens 
