@@ -68,6 +68,14 @@ else:
 
 ### Exercício 6. Contagem de Palavras em Textos
 # Objetivo:** Dado um texto, contar quantas vezes cada palavra única aparece nele.
+texto = 'python é muito legal e python é muito usado em dados'
+
+palavras = texto.split()
+quantidade_palavras = texto.count('python')
+
+for palavra in palavras:
+    texto.count(palavra)
+    print(palavra, palavras.count(palavra))
 
 ### Exercício 7. Normalização de Dados
 # Objetivo:** Normalizar uma lista de números para que fiquem na escala de 0 a 1.
